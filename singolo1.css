@@ -1,0 +1,41 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+max-width: 1020px;
+}
+
+header{
+    height: 95px;
+    background-color: #2d303a;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-bottom{
+    height: 6px;
+    background-color: #323746;
+}
+
+.header-logo{
+width: 115px;
+height: 20px;
+color: #ffffff;
+/*font-family: Lato;*/
+font-size: 25px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+li{
+    display: inline;
+    color: #ffffff;
+   /* font-family: Lato;*/
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
