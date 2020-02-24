@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(assets/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
 
 *{
 margin: 0;
@@ -6,6 +11,7 @@ padding: 0;
 
 body{
 max-width: 1020px;
+font-family: 'Lato', sans-serif;
 }
 
 header{
@@ -13,6 +19,7 @@ header{
     background-color: #2d303a;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .header-bottom{
@@ -21,21 +28,113 @@ header{
 }
 
 .header-logo{
-width: 115px;
-height: 20px;
-color: #ffffff;
-/*font-family: Lato;*/
-font-size: 25px;
-font-weight: 700;
-text-transform: uppercase;
+    width: 115px;
+    height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-bar{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row; 
+    width: 371px;
+    justify-content: space-between;
+     
 }
 
 li{
-    display: inline;
-    color: #ffffff;
-   /* font-family: Lato;*/
+color: #ffffff;
+font-size: 12px;
+line-height: 6.32px;
+text-transform: uppercase;
+
+}
+
+.bg-slider{
+    height: 600px;
+    background-color: #f06c64;
+    display: flex;
+    align-items: center;
+}
+.bg-bottom-slider{
+    height: 15px;
+    background-color: #ea676b;
+}
+
+.servises-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.servises-container-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 37px;
+}
+.servises-container-item-text{
+    padding-left: 20px;
+}
+
+.servises-container-item img{
+    width: 59px;
+    height: 59px;
+}
+
+.bg-servise{
+    height: 496px;
+    background-color: #f2f2f2;
+}
+
+.bg-bottom-services{
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.bg-servise h1{
+    color: #666d89;
+    font-size: 30px;
+    line-height: 17.86px;
+    margin-left: 40px;
+    padding-top: 67px;
+}
+
+.servises-container-item-text-title{
+    color: #666d89;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 17.86px;
+    margin-bottom: 15px;
+}
+
+.bg-servise-desc{
+    width: 939px;
+    color: #767e9e;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 33px auto 51px auto;
+
+}
+
+.servises-container-item-text-desc{
+    width: 220px;
+    color: #767e9e;
+    font-family: 'Lato', sans-serif;
     font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 21.56px;
 }
 
