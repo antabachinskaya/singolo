@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(assets/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1020px;
+    font-family: 'Lato', sans-serif;
+    }
+
+.portfolio{
+    background-color: #2d303a;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 73px;
+}
+
+.portfolio .title{
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 17.86px;
+    padding-top: 67px;
+    padding-bottom: 33px;
+}
+
+.portfolio .desc{
+    color: #767e9e;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.buttons-portfolio{
+    margin-bottom: 19px;
+}
+.buttons-portfolio button{
+    border: 1px solid #666d89;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 6px;
+    color: #666d89; 
+    margin-right: 10px;
+    font-size: 12px;
+
+}
+
+.buttons-portfolio .buttons-portfolio-active{
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 6px;
+    color: #dedede; 
+}
+
+.grid-portfolio-bg-bottom{
+    height: 6px;
+    background-color: #323746;
+}
+.grid-portfolio{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+}
+
+.grid-portfolio .grid-item{
+    width: 220px;
+    height: 187px;
+}
+.about-us{
+    background-color: #f2f2f2;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about-us .title{
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 17.86px;
+    padding-top: 66px;
+    padding-bottom: 33px;
+}
+
+.about-us .desc{
+    color: #767e9e;
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 49px;
+}
+
+.about-us .bg-bottom{
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.grid-about-us{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    
+}
+
+.grid-about-us .grid-item .title{
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 17.86px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+}
+
+.grid-about-us .grid-item .desc{
+    width: 301px;
+    color: #767e9e;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 21.56px;
+    padding-bottom: 28px;
+}
+
+.social{
+   
+}
+.social img{
+    margin-right: 8px;
+}
+
