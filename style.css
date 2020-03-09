@@ -1,0 +1,393 @@
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(assets/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+max-width: 1020px;
+font-family: 'Lato', sans-serif;
+}
+
+header{
+    height: 95px;
+    background-color: #2d303a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-bottom{
+    height: 6px;
+    background-color: #323746;
+}
+
+.header-logo{
+    width: 115px;
+    height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-bar{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row; 
+    width: 371px;
+    justify-content: space-between;
+     
+}
+
+li{
+color: #ffffff;
+font-size: 12px;
+line-height: 6.32px;
+text-transform: uppercase;
+cursor:pointer;
+
+}
+
+.bg-slider{
+    height: 600px;
+    background-color: #f06c64;
+    display: flex;
+    align-items: center;
+}
+.bg-bottom-slider{
+    height: 15px;
+    background-color: #ea676b;
+}
+
+.servises-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.servises-container-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 37px;
+}
+.servises-container-item-text{
+    padding-left: 20px;
+}
+
+.servises-container-item img{
+    width: 59px;
+    height: 59px;
+}
+
+.bg-servise{
+    height: 496px;
+    background-color: #f2f2f2;
+    padding-bottom: 60px;
+}
+
+
+
+.bg-servise h1{
+    color: #666d89;
+    font-size: 30px;
+    line-height: 17.86px;
+    margin-left: 40px;
+    padding-top: 67px;
+}
+
+.servises-container-item-text-title{
+    color: #666d89;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 17.86px;
+    margin-bottom: 15px;
+}
+
+.bg-servise-desc{
+    width: 939px;
+    color: #767e9e;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 33px auto 51px auto;
+
+}
+
+.servises-container-item-text-desc{
+    width: 220px;
+    color: #767e9e;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+}
+
+.portfolio{
+    background-color: #2d303a;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 73px;
+}
+
+.portfolio .title{
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 17.86px;
+    padding-top: 67px;
+    padding-bottom: 33px;
+}
+
+.portfolio .desc{
+    color: #767e9e;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.buttons-portfolio{
+    margin-bottom: 19px;
+}
+.buttons-portfolio button{
+    border: 1px solid #666d89;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 6px;
+    color: #666d89; 
+    margin-right: 10px;
+    font-size: 12px;
+
+}
+
+.buttons-portfolio .buttons-portfolio-active{
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 6px;
+    color: #dedede; 
+}
+
+.grid-portfolio-bg-bottom{
+    height: 6px;
+    background-color: #323746;
+}
+.grid-portfolio{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+}
+
+.grid-portfolio .grid-item{
+    width: 220px;
+    height: 187px;
+}
+.about-us{
+    background-color: #f2f2f2;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:60px ;
+    
+}
+
+.about-us .title{
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 17.86px;
+    padding-top: 66px;
+    padding-bottom: 33px;
+}
+
+.about-us .desc{
+    color: #767e9e;
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 49px;
+}
+
+.about-us .bg-bottom{
+   
+}
+
+.grid-about-us{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    
+}
+
+.grid-about-us .grid-item .title{
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 17.86px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+}
+
+.grid-about-us .grid-item .desc{
+    width: 301px;
+    color: #767e9e;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 21.56px;
+    padding-bottom: 28px;
+}
+
+.social{
+   
+}
+.social img{
+    margin-right: 8px;
+}
+
+.contact{
+
+    height: 648px;
+    background-color: #f06c64;
+    font-family: 'Lato';
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 66px;
+}
+.title-contact{
+    color: #f0d8d9;
+    padding-bottom: 29px;
+    padding-top:67px;
+
+}
+.desc-contact{
+    width: 940px;
+    color: #f0d8d9;
+    padding-bottom: 49px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form textarea{
+    width: 619px;
+height: 38px;
+border-radius: 5px;
+background-color: #d6564f;
+border: none;
+margin-bottom: 15px;
+}
+form input{
+    width: 619px;
+height: 38px;
+border-radius: 5px;
+background-color: #d6564f;
+border: none;
+margin-bottom: 15px;
+}
+
+form button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font: bolder;
+}
+textarea::placeholder{
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    }
+
+input::placeholder{
+font-size: 12px;
+line-height: 22px;
+color: #f48c8f;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+padding-left: 15px;
+padding-top: 10px;
+}
+.info-contact{
+    width: 300px;
+    margin-left: 20px;
+   
+}
+.form-contact-info{
+    display: flex;
+    flex-direction: row;
+}
+.title-info-contact{
+    font-size: 18px;
+line-height: 18px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+padding-bottom: 18px;
+}
+
+.desc-info-contact{
+    width: 300px;
+font-size: 12px;
+line-height: 22px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+}
+.data-info-contact{
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+}
+
+footer{
+    height: 76px;
+background-color: #2d303a;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+footer img{
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+}
+footer p{
+    color: #646B87;
+    font-size: 12px;
+}
+

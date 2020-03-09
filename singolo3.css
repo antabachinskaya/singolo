@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.body{
+    
+}
+.contact{
+    width: 1020px;
+    height: 648px;
+    background-color: #f06c64;
+    font-family: 'Lato';
+    padding: 40px;
+}
+.title-contact{
+    color: #f0d8d9;
+}
+.desc-contact{
+    width: 940px;
+    color: #f0d8d9;
+}
+form input{
+    width: 619px;
+height: 38px;
+border-radius: 5px;
+background-color: #d6564f;
+border: none;
+margin-bottom: 15px;
+}
+
+input::placeholder{
+font-size: 12px;
+line-height: 22px;
+color: #f48c8f;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+padding-left: 15px
+}
+
+footer{
+    width: 1020px;
+height: 76px;
+background-color: #2d303a;
+}
