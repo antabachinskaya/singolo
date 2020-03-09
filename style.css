@@ -282,6 +282,7 @@ cursor:pointer;
     width: 940px;
     color: #f0d8d9;
     padding-bottom: 49px;
+    line-height: 30px;
 }
 form{
     display: flex;
@@ -364,6 +365,14 @@ font-weight: 400;
 text-align: left;
 }
 .data-info-contact{
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    padding-top: 25px;
+}
+.data-info-contact a{
     width: 300px;
     font-size: 12px;
     line-height: 22px;
