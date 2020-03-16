@@ -14,12 +14,14 @@ max-width: 1020px;
 font-family: 'Lato', sans-serif;
 }
 
-header{
+.header{
+    width: 1020px;
     height: 95px;
     background-color: #2d303a;
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: fixed;
 }
 
 .header-bottom{
@@ -399,4 +401,8 @@ footer p{
     color: #646B87;
     font-size: 12px;
 }
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
