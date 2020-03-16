@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Singolo</title>
 </head>
 <body>
@@ -16,12 +15,16 @@
         </div>
 
         <div class="nav-bar">
-            <ul>
-                <li class="active-item" style="list-style-type: none; color: #f06c64;">Home</li>
-                <li>Services</li>
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
+            <ul class="hor-menu" id="hor-menu-id">
+                <li style="cursor:pointer"><a class="hor-menu-item active" href="#home">Home</a></li>
+                <li style="color: #494e62; margin:10px">  · </li>
+                <li style="cursor:pointer"><a class="hor-menu-item" href="#services">Services</a></li>
+                <li style="color: #494e62; margin:10px">  · </li>
+                <li style="cursor:pointer"><a class="hor-menu-item" href="#portfolio">Portfolio</a></li>
+                <li style="color: #494e62; margin:10px">  · </li>
+                <li style="cursor:pointer"><a class="hor-menu-item" href="#about">About</a></li>
+                <li style="color: #494e62; margin:10px">  · </li>
+                <li style="cursor:pointer"><a class="hor-menu-item" href="#contact">Contact</a></li>
             </ul>
         </div>
 <div class="header-bottom"></div>
@@ -29,7 +32,7 @@
 
     
 
-    <div class="slider">
+    <div id="home" class="slider">
         <div class="bg-slider">
             <img src="assets/chev.png" alt="chev" style="margin-left: 40px; margin-right: auto; cursor:pointer;">
             <img src="assets/iPhone_Vertical.png" alt="iPhone_Vertical" style="margin-right: 74px;">
@@ -41,9 +44,9 @@
 
     </div>
 
-            <div class="services">
+            <div  class="services">
                 <div class="bg-servise">
-                    <h1>Our Services</h1>
+                    <h1 id="services">Our Services</h1>
                     <p class="bg-servise-desc">
                         Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
                     </p>
@@ -103,7 +106,7 @@
             </div>
         </div>
 
-        <div class="portfolio">
+        <div id="portfolio" class="portfolio">
             <h1 class="title">Portfolio</h1>
             <p class="desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
     
@@ -132,7 +135,7 @@
         <div class="grid-portfolio-bg-bottom"></div>
         
     
-        <div class="about-us"> 
+        <div id="about" class="about-us"> 
             <h1 class="title">About Us</h1>
             <p class="desc">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
     
@@ -178,7 +181,7 @@
         </div>
         <div style=" height: 6px;
         background-color: #ffffff;"></div>
-        <div class="contact">
+        <div id="contact"  class="contact">
             <h1 class="title-contact">Get a Quote</h1>   
             <p class="desc-contact">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p> 
             <div class="form-contact-info">
@@ -214,6 +217,6 @@
                 </div>
             
             </footer>
-   
+    <script src="script.js"></script> 
 </body>
 </html>
