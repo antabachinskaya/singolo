@@ -8,6 +8,13 @@
     <title>Singolo</title>
 </head>
 <body>
+        <div class="modal hidden">
+                <div class="modal__message">
+                  Test
+                </div>
+                <div class="modal__background"></div>
+              </div>
+
     <header class="header" id="myHeader">
         <div class="header-logo">
             <h1>singolo</h1>
@@ -32,17 +39,33 @@
 
     
 
-    <div id="home" class="slider">
-        <div class="bg-slider">
-            <img src="assets/chev.png" alt="chev" style="margin-left: 40px; margin-right: auto; cursor:pointer;">
-            <img src="assets/iPhone_Vertical.png" alt="iPhone_Vertical" style="margin-right: 74px;">
-            <img src="assets/iPhone_Horizontal.png" alt="iPhone_Horizontal">
-            <img src="assets/chev (1).png" alt="chev" style="margin-right: 40px; margin-left: auto; cursor:pointer;">
-        </div>
-
+  
+        <section class="slider home" id="home">
+                <div class="wrapper">
+               
+                  <button class="arrow left" type="button" aria-label="Slide previous"></button>
+            
+                  <div class="slider__images">
+                    <div class="iphone iphone_vertical">
+                      <div class="iphone__screen iphone__clickable"></div>
+                      <div class="iphone__phone iphone__clickable"></div>
+                      <div class="iphone__shadow"></div>
+                    </div>
+                    <div class="iphone iphone_horizontal">
+                      <div class="iphone__screen iphone__clickable"></div>
+                      <div class="iphone__phone iphone__clickable"></div>
+                      <div class="iphone__shadow"></div>
+                    </div>
+                  </div>
+            
+                  <button class="arrow right" type="button" aria-label="Slide next"></button>
+                </div>
+              </section>
         <div class="bg-bottom-slider"></div>
+      
 
-    </div>
+    
+    
 
             <div  class="services">
                 <div class="bg-servise">
@@ -110,15 +133,15 @@
             <h1 class="title">Portfolio</h1>
             <p class="desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
     
-            <div class="buttons-portfolio">
-                <button class="buttons-portfolio-active">All</button>
-                <button>Web Desing</button>
-                <button>Graphic Design</button>
-                <button>Artwork</button>
+            <div id="portfolio" class="buttons-portfolio">
+                <button class="portfolio-item portfolio-active">All</button>
+                <button class="portfolio-item">Web Desing</button>
+                <button class="portfolio-item">Graphic Design</button>
+                <button class="portfolio-item">Artwork</button>
             </div>
     
-    <div class="grid-portfolio">
-            <div class="grid-item"><img src="assets/Project.png" alt="project1"></div>
+    <div id="portfolio-grid" class="grid-portfolio">
+            <div class="grid-item grid-item-active"><img src="assets/Project.png" alt="project1"></div>
             <div class="grid-item"><img src="assets/Project (1).png" alt="project1"></div>
             <div class="grid-item"><img src="assets/Layer_9.png" alt="project1"></div>  
             <div class="grid-item"><img src="assets/Project (2).png" alt="project1"></div>
@@ -186,11 +209,11 @@
             <p class="desc-contact">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p> 
             <div class="form-contact-info">
             <form action= "http://google.com" method= "POST">
-                <input type="text" required placeholder="Name (Required)">
-                <input type="email" required placeholder="Email (Required)">
-                <input placeholder="Subject">
-                <textarea style="height: 201px;" placeholder="Describe your project in detail..."></textarea>
-                <button style="cursor: pointer;" type="submit">Submit</button>
+                <input type="text" name="name" required placeholder="Name (Required)">
+                <input type="email" name="email" required placeholder="Email (Required)">
+                <input placeholder="Subject" name="subject">
+                <textarea name="message" style="height: 201px;" placeholder="Describe your project in detail..."></textarea>
+                <button name="submit" formmethod="POST" style="cursor: pointer;" type="submit">Submit</button>
             </form>
             <div class="info-contact">
             <p class="title-info-contact">Contact Information</p>
